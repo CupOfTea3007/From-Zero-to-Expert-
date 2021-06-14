@@ -682,3 +682,166 @@ bill* 0.2;
 console.log(`The bill was ${bill}, the tip was ${tip}, and the total value ${bill + tip}`);
 */
 
+
+
+'use strict';
+/*
+let hasDriversLicence = false;
+const passTest = true; 
+
+if (passTest) hasDriversLicence = true;
+if (hasDriversLicence) console.log('I can drive');
+
+const interface = 'Audio';
+
+
+function logger(){
+console.log('My name is Jonas');
+}
+// calling / running / invoking the function
+
+logger();
+logger();
+
+function fruitProcessor(apples, oranges){
+    
+    const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+    return juice; 
+}
+
+
+const appleJuice = fruitProcessor(5, 0);
+console.log(appleJuice);
+console.log(fruitProcessor(5, 0));
+ 
+
+const appleOrangeJuice = fruitProcessor(2, 4);
+console.log(appleOrangeJuice);
+
+const num = Number('23')
+
+//ANGELA
+
+function lifeInWeeks(age) {
+    
+    var yearsRemaining = 90 - age;
+    var days = yearsRemaining *365;
+    var weeks = yearsRemaining *52;
+    var months = yearsRemaining *12;
+
+    console.log(`You have ${days} days, ${weeks} weeks, and ${months} months left.`);
+
+}
+
+lifeInWeeks(12);
+    /************Don't change the code above************/    
+        
+        //Write your code here.
+      
+        //FUNCTION DECLARATION
+/*function calcAge1(birthYear){
+    //const age = 2021 - birthYear;- NO NEED FOR THIS LINE WHEN WE RETURN
+    return 2021 - birthYear; 
+
+}
+
+const age1 = calcAge1(1986);
+console.log(age1);
+
+//FUNCTION EXPRESSION
+
+const calcAge2 = function (birthYear) {
+    return 2021 - birthYear;
+
+}
+
+const age2 = calcAge2(1991);
+
+console.log(age1, age2);
+
+
+
+function parkiraliste(parkingMjesto) {
+console.log(`Parkiran je ${parkingMjesto}`);
+}
+
+//parkiraliste('crveni');
+//parkiraliste('zeleni');
+//parkiraliste('crni');
+
+function ucionica(predavac) {
+    return `Danasnji predavac je ${predavac}`;
+}
+
+console.log(ucionica('Pera'));
+console.log(ucionica('Mira'));
+
+*/
+/*
+function logger () {
+    console.log('My name is Jonas');
+}
+
+//calling/running/invoikin function
+
+logger();
+logger();
+logger();
+
+function fruitProcessor(apples, oranges) {
+ 
+    const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+    return juice;
+}
+const appleJuice = fruitProcessor(5, 0);
+console.log(appleJuice);
+console.log(fruitProcessor(5, 0));
+
+const appleOrangeJuice = fruitProcessor(2, 4);
+console.log(appleOrangeJuice);
+
+//Function declaration
+function calcAge1(birthYear){
+    const age = 2037 - birthYear;
+    return 2037 - birthYear; 
+}
+
+const age1 = calcAge1(1991);
+console.log(age1);
+//Function expression
+const calcAge2 = function (birthYear) {
+    return 2037 - birthYear;
+}
+const age2 = calcAge2(1991);
+
+console.log(age1, age2);
+
+
+//arrow function
+
+const calcAge3 = birthYear => 2037 - birthYear;
+const age3 = calcAge3(1991);
+console.log(age3);
+
+const yearsUntilRetirement = (birthYear,  firstName) => {
+    const age = 2027-1986;
+    const retirement = 65 - age;
+    //return retirement;
+    return `${firstName} retires in ${retirement} years`;
+}
+
+console.log(yearsUntilRetirement(1991, 'Jonas'));
+console.log(yearsUntilRetirement(1980, 'Bob' ));
+*/
+function cutFruitPieces(fruit) {
+    return fruit * 4;
+}
+
+function fruitProcessor(apples, oranges) {
+ const applePieces = cutFruitPieces(apples);
+ const orangePieces = cutFruitPieces(oranges);
+
+    const juice = `Juice with ${apples} apples and ${oranges} oranges.`;
+    return juice;
+}
+fruitProcessor(2,3);
