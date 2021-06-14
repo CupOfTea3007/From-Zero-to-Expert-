@@ -98,18 +98,26 @@ const isFullAge = ageTea >=18;
 //testing 2 
 */
 
-/*testing1-Declare variables called 'country', 'continent' and 'population' and assign their values according to your own country (population in millions) 2. Log their values to the console 
+
+
+
+--------------------------------------------------------------------
+/*testing1-
+Declare variables called 'country', 'continent' and 'population' and assign their values according to your own country (population in millions) 2. Log their values to the console 
 
 let continent = "Europe";
 let population = "4 000 000";
 console.log(country, continent, population);*/
 
+
+
+
+
+----------------------------------------------------------------
 /* testing2
 1.	Declare a variable called 'isIsland' and set its value according to your country. The variable should hold a Boolean value. Also declare a variable 
 'language', but don't assign it any value yet 
 2.	Log the types of 'isIsland', 'population', 'country' and 'language' to the console 
-
-
 
 let isIsland = "false";
 let language = "";
@@ -118,12 +126,15 @@ console.log(typeof population);
 console.log(typeof country);
 console.log(typeof language);
 */
+
+
+
+
+-------------------------------------------------------------------------
 /*test2
 1.	Set the value of 'language' to the language spoken where you live (some countries have multiple languages, but just choose one) 
 2.	Think about which variables should be const variables (which values will never change, and which might change?). Then, change these variables to const. 
 3.	Try to change one of the changed variables now, and observe what happens 
-
-
 
 language = "Croatian";
 const country = "Croatia";
@@ -133,16 +144,14 @@ isIsland = "true";
 */
 
 
+
+
+-----------------------------------------------------------------
 /*1.	If your country split in half, and each half would contain half the population, then how many people would live in each half? 
 2.	Increase the population of your country by 1 and log the result to the console 
 3.	Finland has a population of 6 million. Does your country have more people than Finland? 
 4.	The average population of a country is 33 million people. Does your country have less people than the average country? 
 5.	Based on the variables you created, create a new variable 'description' which contains a string with this format: 'Portugal is in Europe, and its 11 million people speak portuguese' 
-*/
-
-
-
-/*
 
 const population = 4000000;
 const populationHalf = population/2;
@@ -171,7 +180,13 @@ population = 11000000;
 language = portuguese; 
 console.log(description);*/
 
-/*Coding Challenge #1 -----------------------------------------------
+
+
+
+
+----------------------------------------------------------------------------------------------------
+/*Coding Challenge #1 
+
 Mark and John are trying to compare their BMI (Body Mass Index), which is calculated using the formula: 
 BMI = mass / height ** 2 = mass / (height * height) (mass in kg and height in meter). 
 Your tasks: 
@@ -182,9 +197,13 @@ Test data:
 §	Data 1: Marks weights 78 kg and is 1.69 m tall. John weights 92 kg and is 1.95 m tall. 
 §	Data 2: Marks weights 95 kg and is 1.88 m tall. John weights 85 kg and is 1.76 m tall. 
  
-GOOD LUCK 😀 ----------------------------------------------------------
-*/
 
+
+
+
+
+
+----------------------------------------------------------------------------------------------------------------
 //TEST DATA 1 - you might have used let insted of const , because we already know we aren't gonna change them 
 /*
 const massMark = 95;
@@ -250,7 +269,13 @@ if (birthYear <= 2000) {
 }
 console.log(century);*/
 
-/*TAKING DECISIONS ID/ELSE STATEMENTS
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------
+/*TAKING DECISIONS IF/ELSE STATEMENTS
 If your country's population is greater that 33 million, log a string like this to the console: 'Portugal's population is above average'. Otherwise, log a string like 'Portugal's population is 22 million below average' (the 22 is the average of 33 minus the country's population) 
 2.	After checking the result, change the population temporarily to 13 and then to 130. See the different results, and set the population back to original 
 
@@ -421,7 +446,7 @@ if (hasDriversLicence && hasGoodVision && !isTired){
 
 
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 const numNeighbours = prompt( 'How many neighbour countries does your country have?');
 
@@ -448,7 +473,7 @@ if (language === 'english' && population < 50 && !isIsland)
 
 
 
-
+--------------------------------------------------------------------------------------------------------------------------------
 /*Assignment 
 LECTURE: Logical Operators 
 1.	Comment out the previous code so the prompt doesn't get in the way 
@@ -456,8 +481,6 @@ LECTURE: Logical Operators
 3.	Write an if statement to help Sarah figure out if your country is right for her. You will need to write a condition that accounts for all of Sarah's criteria. Take your time with this, and check part of the solution if necessary. 
 4.	If yours is the right country, log a string like this: 'You should live in Portugal :)'. If not, log 'Portugal does not meet your criteria :(' 
 5.	Probably your country does not meet all the criteria. So go back and temporarily change some variables in order to make the condition true (unless you live in Canada :D) 
-
-
 
 const language = "croatian";
 const population = "40";
@@ -471,6 +494,19 @@ if(language=='english'&& population < 50 && isIsland == true) {
 
 */
 
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------
 // CODING CHALLENGE 3
 /*
 There are two gymnastics teams, Dolphins and Koalas. They compete against each other 3 times. The winner with the highest average score wins a trophy! 
@@ -594,6 +630,9 @@ if(day === 'monday'){
 */
 
 
+
+
+--------------------------------------------------------------------------------------------------------------------------------------
 /*The switch Statement 
 Use a switch statement to log the following string for the given 'language': 
 chinese or mandarin: 'MOST number of native speakers!' spanish: '2nd place in number of native speakers' english: '3rd place' hindi: 'Number 4' 
@@ -660,6 +699,8 @@ console.log('I like to drink ')*/
 
 
 
+
+--------------------------------------------------------------------------------------------------------------------------------------------------------------
 //CODING CHALLENGE 4
 /* Steven wants to build a very simple tip calculator for whenever he goes eating in a restaurant. In his country, it's usual to tip 15% if the bill value is between 50 and 300. If the value is different, the tip is 20%. 
 Your tasks: 
@@ -720,7 +761,10 @@ console.log(appleOrangeJuice);
 
 const num = Number('23')
 
-//ANGELA
+
+
+-----------------------------------------------------------------------------------------------------------------------------------
+//ANGELA TUTORIAL SHORT PART 
 
 function lifeInWeeks(age) {
     
@@ -761,6 +805,8 @@ console.log(age1, age2);
 
 
 
+----------RANDOM YOUTUBE TUTORIAL EXPLANATION IN CROATIAN----------------------------------------------------------------------------------------------------------
+
 function parkiraliste(parkingMjesto) {
 console.log(`Parkiran je ${parkingMjesto}`);
 }
@@ -782,7 +828,7 @@ function logger () {
     console.log('My name is Jonas');
 }
 
-//calling/running/invoikin function
+//calling/running/invoking function
 
 logger();
 logger();
@@ -817,6 +863,14 @@ const age2 = calcAge2(1991);
 console.log(age1, age2);
 
 
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------------------
 //arrow function
 
 const calcAge3 = birthYear => 2037 - birthYear;
@@ -845,3 +899,5 @@ function fruitProcessor(apples, oranges) {
     return juice;
 }
 fruitProcessor(2,3);
+
+-PART 3 in development
